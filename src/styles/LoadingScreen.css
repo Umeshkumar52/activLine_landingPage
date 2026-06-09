@@ -1,0 +1,47 @@
+/* ═══════════════════════════════════════════════════════
+   LOADING SCREEN – Exact replica of activline.in preloader
+   Source: #site-preloader from bosa/style.css
+   ═══════════════════════════════════════════════════════ */
+
+#site-preloader {
+  background-color: #ffffff;
+  position: fixed;
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  z-index: 9999999;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* Fade transition */
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+#site-preloader.preloader-visible {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+}
+
+#site-preloader.preloader-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+#site-preloader .preloader-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#site-preloader .preloader-content img {
+  display: block;
+}

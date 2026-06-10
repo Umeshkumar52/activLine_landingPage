@@ -29,24 +29,28 @@ export default function CampusWifi() {
           <div className="seg-intro-text">
             <span className="al-section-tag">Academic Communities</span>
             <h2 className="seg-sub-heading">
-              Instant plug and play access to students, faculty and staff members
+              Instant plug and play access to students, faculty and staff
+              members
             </h2>
             <p className="seg-para">
-              At Activline, we are delighted to be a part of the 'always on' lives of academic
-              communities. Our on-campus wireless P2P service provides instant plug and play
-              access to students, faculty and staff members. Not just that, our campus Wi-Fi
-              subscribers can also remotely manage, track and bill their Internet use.
+              At Activline, we are delighted to be a part of the 'always on'
+              lives of academic communities. Our on-campus wireless P2P service
+              provides instant plug and play access to students, faculty and
+              staff members. Not just that, our campus Wi-Fi subscribers can
+              also remotely manage, track and bill their Internet use.
             </p>
             <p className="seg-para">
-              Via our wireless LAN, we can connect students in hostel rooms, classrooms,
-              libraries and cafeterias to the virtual world of information, knowledge and
-              entertainment. This translates into new revenue streams and sharp competitive
-              recruiting edge for institutions because of a satisfied pool of students on campus.
+              Via our wireless LAN, we can connect students in hostel rooms,
+              classrooms, libraries and cafeterias to the virtual world of
+              information, knowledge and entertainment. This translates into new
+              revenue streams and sharp competitive recruiting edge for
+              institutions because of a satisfied pool of students on campus.
             </p>
           </div>
-          <div className="seg-intro-img">
+          <div style={{ height: "400px" }} className="seg-intro-img">
             <img
-              src="https://www.activline.in/wp-content/uploads/2021/01/bosa-marketing-img39-1250-610.jpg"
+              style={{ height: "100%", width: "100%", objectFit: "contain" }}
+              src="/public/dash.png"
               alt="Campus Wifi"
               loading="lazy"
             />
@@ -57,16 +61,19 @@ export default function CampusWifi() {
       {/* ── Benefits Block ── */}
       <section className="seg-benefits-section-wrap">
         <div className="seg-benefits-inner">
-          <div className="seg-benefits-img">
+          <div style={{ height: "400px" }} className="seg-benefits-img">
             <img
-              src="https://www.activline.in/wp-content/uploads/2021/01/bosa-marketing-img41-1250-610.jpg"
+              style={{ height: "100%", width: "100%", objectFit: "contain" }}
+              src="/public/service.png"
               alt="Wireless infrastructure deployment"
               loading="lazy"
             />
           </div>
           <div className="seg-benefits-content">
             <span className="al-section-tag seg-tag-blue">Our Benefits</span>
-            <h2 className="seg-sub-heading">Why ActivLine Campus WiFi works well:</h2>
+            <h2 className="seg-sub-heading">
+              Why ActivLine Campus WiFi works well:
+            </h2>
             <ul className="seg-benefit-list">
               {BENEFITS.map((b, i) => (
                 <li key={i} className="seg-benefit-item">
